@@ -22,6 +22,4 @@ public class C01_IlkTest {
 /*
 .setProperty("") methodu key ve deger ister. Driver yolu gostermek icin kullanilir.
 setProperty methodu ile class'imiza driver'in fiziki yolunu belirtiriz.
-
-
  */

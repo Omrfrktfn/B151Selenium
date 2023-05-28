@@ -31,6 +31,4 @@ public class C02_DriverMethods {
 *driver.getCurrentUrl(); icinde bulundugu sayfanin url'sni getirir. -->
 *driver.getPageSource() :icinde olunana sayfanin kaynak kodlarini String olarak getirir.
 *driver.getWindowHandle(); = gidilen sayfanin handle degerini verir. Bu handle degerini safalar arasi gecis icin kullaniriz.
-
-
  */
