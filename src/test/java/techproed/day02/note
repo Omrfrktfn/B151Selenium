@@ -1,0 +1,27 @@
+*driver.navigate.to(); -->
+*driver.navigate().back(); --> icinde olunan sayfadan, geldigi bir onceki sayfaya yonlendirir.
+*driver.navigate().forward(); -->back ile donulen sayfadan tekrar ileri gider.
+*driver.navigate().refresh(); -->icinde bulunan sayfayi yeniler.
+
+*********************************************************
+
+*driver.manage.window.mazimize(); --> Browser'i mazimize yapar
+*driver.manage.window.minimize(); -->Browser'i minimize yapar
+*driver.manage.window.fullscreen(); -->Browser'i fullscreen yapar
+*driver.manage.window.getPosition(); -->Browser'in koordinatlarini verir.
+*driver.manage.window.getSize(); -->Browser'in olculerini verir.
+
+
+        driver.manage().window().setPosition(new Point(50,50));
+        driver.manage().window().setSize(new Dimension(600,600)); bu sekilde farkli konumlarda verilir.
+
+*********************************************************'
+
+*driver.manate().timeouts().implicitlyWait(Duration.ofSeconds(10)); --> istenen sayfa acilincaya kadar maximum
+bekleme suresini belirtir. WebElement'ler yukleninceye kadar bekler eger erken yuklenirse direk acar.
+Diger turlu bir asagi satira gectiginde ise hata verir.
+
+*Thread.sleep -->Java kodlarini bizim istedigimiz sure kadar beklemesin saglar.
+
+
+*********************************************************'

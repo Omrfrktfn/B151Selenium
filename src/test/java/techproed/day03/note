@@ -1,0 +1,16 @@
+*webElement.click(); --> Web element'i click yapar
+*webElement.sendKeys("Metin"); --> parametre olarak yazilan metni web element'e goturur
+*webElement.submit(); --> web element ile islem yaparken enter tusuna basma gorevi yapar.
+*webElement.sendKeys("metin" + Keys.ENTER) --> Istedigimiz metni yollayip sonra enter yapar.
+
+List<WebElement>
+elementName=driver.findElements(By.LocatorStrategy("LocatorValue"));
+❖ Locator degerine uygun Web elementlerinin listesini döndürür
+❖ Locator stratejisiyle eşleşen web elementi yoksa boş bir liste döndürür.
+❖ NoSuchElementException hatası vermez.
+❖ Listedeki her Web elementi, 0'dan başlayan bir indeks alır
+
+*System.out.println("Linklerin sayisi: "+linkler.size()); bu sekilde link sayilarinin adetini bulabiliriz.
+
+*.getText ==>String'e donusturme islemi yapar
+ System.out.println(element.getText());
