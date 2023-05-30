@@ -12,5 +12,9 @@ elementName=driver.findElements(By.LocatorStrategy("LocatorValue"));
 
 *System.out.println("Linklerin sayisi: "+linkler.size()); bu sekilde link sayilarinin adetini bulabiliriz.
 
+
+*webElement.getText() = WebElement uzerindeki yaziyi getirir.
+*WebElement.getAttribute("Att.ismi") = ismi girilen attribute'un degerini getirir.
+*webElement.getTagName() = WebElement'in tag ismini getirir.
 *.getText ==>String'e donusturme islemi yapar
  System.out.println(element.getText());
