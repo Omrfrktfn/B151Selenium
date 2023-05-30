@@ -22,6 +22,3 @@ bekleme suresini belirtir. WebElement'ler yukleninceye kadar bekler eger erken y
 Diger turlu bir asagi satira gectiginde ise hata verir.
 
 *Thread.sleep -->Java kodlarini bizim istedigimiz sure kadar beklemesin saglar.
-
-
-*********************************************************'
