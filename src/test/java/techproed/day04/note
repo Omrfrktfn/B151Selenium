@@ -1,0 +1,3 @@
+*webElement.isEnable(); ==webElement erisebilir ise true yoksa false
+*webElement.isDisplayed(); ==webElement gorunur ise true yoksa false
+*webElement.isSelected(); ==webElement secili ise true yoksa false
