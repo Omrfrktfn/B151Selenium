@@ -29,6 +29,11 @@ public class C03_FindElements {
             System.out.println(element.getText());
         }
 
+
+        //lambda ile
+      //  linkler.forEach(link -> {if (!link.getText().isEmpty())
+      //  {System.out.println(link.getText());}});
+
         // sayfayı kapatın
         Thread.sleep(2000);
         driver.close();
