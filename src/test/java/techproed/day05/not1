@@ -1,0 +1,35 @@
+text ile islem yaptigimiz da @ yapmiyoruz.
+
+//span[text()='Hybrid Bikes']
+
+*********************************************************************
+(//span[@class='a-size-medium a-color-base a-text-normal'])[1]
+uniq olmayan durumlar da yazdigimiz kod parentez icine alinir ve parentezin disina koseli
+parentez ile ilk almak istedigimiz yada kacinci urunu almak istiyorsak onu yazicaz.
+
+*********************************************************************
+
+cssSelector yazim sekli : css = tagName[attribute name= 'value’ ];
+driver.findElement(By.cssSelector("input[name='session[password]']"))
+
+*********************************************************************
+
+xPath ve cssSelector arasindaki farklar
+-Xpath text ile calisir.
+-cssSelector text ile calismaz.
+-Xpath index'e gore arama yapabilir. Daha fazla kombinasyona sahiptir.
+-cssSelector index'e gore arama yapamaz. Daha hizli calisri.
+
+*********************************************************************
+RelativeLocator : Bir webelementi direk locate edemedigimiz durumlarda o web elementi
+etrafindaki web elementlerin referansi ile tarif etmemizi saglar.
+Bir web sayfasinda benzer ozelliklere sahip web elemnentlerin oldugu durumlarda kullanilabilir.
+above = belirtilen elementin usutnde olan elementi secer.
+below = belirtilen element'in altinda olna elementi secer
+to_left_of = belirtilen element'in solunda olan elementi secer.
+to_right_of = belirtilen element'in saginda olan elementi secer.'
+
+*********************************************************************
+reklam kapatma :
+WebElement kapatmatusu= driver.findElement(By.xpath("//*[@class='eicon-close']"));
+kapatmatusu.click();

@@ -55,5 +55,6 @@ public class C02_WebElementLocators {
 
         // sayfayı kapatın
         driver.close();
+
     }
 }
